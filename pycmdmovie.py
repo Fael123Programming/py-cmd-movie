@@ -2,7 +2,8 @@ from PIL import Image
 import os, time, cv2
 
 
-ASCII_CHARS = "@%#*+=-:. "
+ASCII_CHARS = " .:=+*#%@"
+# ASCII_CHARS = "@%#*+=-:. "
 
 
 def _scale_image(image, new_width=25):
